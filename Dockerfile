@@ -6,3 +6,7 @@ RUN apt-get update -qq && \
     rm -rf /var/lib/apt/lists/*
 
 RUN cargo install diesel_cli
+
+RUN rustc --version
+RUN cargo --version
+RUN diesel --version
