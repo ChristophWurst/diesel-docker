@@ -1,4 +1,4 @@
-FROM liuchong/rustup:latest
+FROM liuchong/rustup:stable
 
 RUN apt-get update -qq && \
     apt-get install -y libpq-dev libsqlite3-dev default-libmysqlclient-dev && \
